@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home1"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="الرئيسية"/>
+
+        <item
+            android:id="@+id/nav_home2"
+            android:icon="@drawable/ic_baseline_supervisor_account_240000"
+            android:title="علماء لن ينساهم التاريخ"/>
+
+        <item
+            android:id="@+id/nav_home3"
+            android:icon="@drawable/ic_baseline_supervisor_account_240000"
+            android:title="علماء الأثار"/>
+
+        <item
+            android:id="@+id/nav_home5"
+            android:icon="@drawable/h1"
+            android:title="الحضارات القديمة"/>
+
+        <item
+            android:id="@+id/nav_home5i"
+            android:icon="@drawable/ic_baseline_sentiment_very_dissatisfied_24"
+            android:title="الحضارات المنسيه"/>
+
+        <item
+            android:id="@+id/nav_home6"
+            android:icon="@drawable/h2"
+            android:title="الأثار النادره"/>
+
+        <item
+            android:id="@+id/nav_home7"
+            android:icon="@drawable/h3"
+            android:title="تقيم الأثار"/>
+
+        <item
+            android:id="@+id/nav_home8"
+            android:icon="@drawable/h4"
+            android:title="الاشاعات"/>
+
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_Sitting"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="اعدادات"/>
+
+
+            <item
+                android:id="@+id/nav_Tips"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="نصائح"/>
+
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="logout"/>
+
+        </menu>
+
+    </item>
+
+</menu>
